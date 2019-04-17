@@ -7,8 +7,8 @@
 
    Payment Form Script
    
-   Author: 
-   Date:   
+   Author: Juan Verduzco
+   Date:   09.11.19
    
    Filename: co_payment.js
    
@@ -43,4 +43,44 @@
       Returns true of idNum satisfies the Luhn Algorithm
 
 */
+dow.addEventListener("load", function () {
+      //retrieve the filed/value pairs from the url
+      var formDate = location.search.slice(1);
+})
 
+
+function runSubmit() {
+
+}
+
+function validateCVC() {
+
+}
+
+function validateMonth() {
+
+}
+
+function validateYear() {
+
+}
+
+function validateNumber() {
+
+}
+
+function validateCredit() {
+
+}
+
+function validateName() {
+
+}
+
+function sumDigits(numStr) {
+
+}
+
+function luhn(idNum) {
+
+}
