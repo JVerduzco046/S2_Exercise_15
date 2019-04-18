@@ -159,7 +159,7 @@ function validateNumber() {
 
       } else if (luhn(cardNumber.value) === false) {
 
-            cardNumber.setCustomValidity("Enter a real card Nigga")
+            cardNumber.setCustomValidity("Enter a legitimant card number")
 
       } else {
 
